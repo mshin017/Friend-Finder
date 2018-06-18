@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder</title>
+    <link rel="stylesheet" href= "./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class= "container">
+        <h1>Survey Questions </h1>
+        <form>
+            <h2>About You</h2>
+            <div class="form-group">
+                <label for="name">Name (Required)</label>
+                <input type="name" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="linkPhoto">Link to Photo Image (Required)</label>
+                <input type="linkPhoto" class="form-control" id="linkPhoto">
+            </div>
+        </form>
+        <div class="questions">
+            <h3>Question 1</h3>
+            <p>I would say I am a dreamer.</p>
+            <select class="form-control" id="quest-1">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+            </select>
+
+        <br>
+            <h3>Question 2</h3>
+            <p>Generally speaking, I rely more on experience than imagination.</p>
+            <select class="form-control" id="quest-2">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+            </select>
+
+        <br>
+            <h3>Question 3</h3>
+            <p>People rarely upset me.</p>
+            <select class="form-control" id="quest-3">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+            </select>
+
+        <br>
+            <h3>Question 4</h3>
+            <p>It is often difficult to relate to other people.</p>
+            <select class="form-control" id="quest-4">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+            </select>
+
+        <br>
+            <h3>Question 5</h3>
+            <p>In a discussion, truth should be more important than people's sensitivities.</p>
+            <select class="form-control" id="quest-5">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+            </select>
+
+        <br>
+            <h3>Question 6</h3>
+            <p>I feel more energetic after spending time with a group of people.</p>
+              <select class="form-control" id="quest-6">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+            </select>
+
+        <br>
+            <h3>Question 7</h3>
+            <p>I would rather read a book or watch a movie at home than go out.</p>
+            <select class="form-control" id="quest-7">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+            </select>
+
+        <br>
+            <h3>Question 8</h3>
+            <p>I am adventerous and like to explore new ideas and experiences.</p>
+            <select class="form-control" id="quest-8">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+            </select>
+
+        <br>
+            <h3>Question 9</h3>
+            <p>I think everyone's opinion should be respected regardless of whether they are supported by facts or not.</p>
+            <select class="form-control" id="quest-9">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+            </select>
+
+        <br>
+            <h3>Question 10</h3>
+            <p>I am more of a dog person.</p>
+            <select class="form-control" id="quest-10">
+                    <option>1 (Strongly Disagree)</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5 (Strongly Agree)</option>
+            </select>
+
+        <br><br>
+            <button id="submit" class="btn btn-primary"><i class="fas fa-check-circle"></i> Submit</button>
+        <br><br>
+        </div>
+    </div>
+    <div class="modal fade" id="friend-modal" role="dialog">
+            <div class="modal-dialog">
+            
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+    
+
+    <footer id = "arm">
+            <a href="/api/friends">API Friends list</a> | <a href="https://github.com/mshin017">Github Repo</a>
+        </footer>
+</body>
+
+
+<script type="text/javascript">
+ 	$('#submit').on("click", function(){
+         console.log("clicked");
+		var validEntry;
+		if($("#name").val().trim() === ''){
+			alert('Please enter a name');
+		}
+		else if($("#linkPhoto").val().trim() === ''){
+			alert('Please enter a link to photo');
+		}
+		else{
+			var answerArray = [];
+			for(i=1; i<11; i++){
+                answerArray.push(parseInt($('#quest-' + i).val().substring(0,1)));
+            }
+			var newFriend = 
+			{
+				name: $("#name").val().trim(),
+				photo: $("#linkPhoto").val().trim(),
+				scores: answerArray
+			};
+
+            var currentURL = window.location.origin;
+			$.post(currentURL + "/api/friends", newFriend, function(data){
+                console.log("posted");
+            });
+
+			$.ajax({url: currentURL + "/api/friends", method: "GET"}).done(function(res){
+					
+				var bestFriend;
+				var currentBest = 100;
+				var differenceArray = [];
+
+				for(i=0; i < res.length - 1; i++){
+					for(j=0; j<10; j++){
+						var currentDifference = newFriend.scores[j] - res[i].scores[j];
+						differenceArray.push(Math.abs(currentDifference));
+					}
+					var difference = differenceArray.reduce(add, 0);
+					if(difference < currentBest){
+						bestFriend = res[i];
+						currentBest = difference;
+						differenceArray = [];
+					}
+					else{
+						differenceArray =[];
+					}
+					
+				}
+				var friendName = '<h4>' + bestFriend.name + '<h4>';
+				var friendPic = '<img width="300px" src=' + bestFriend.photo + '>';
+				$('#friend-modal').modal('show');
+				$('#friend-modal h4').html(friendName);
+				$('.modal-body').html(friendPic);
+				
+                });
+            }
+    return false;
+    });
+    function add(a, b){
+        return a+b;
+    };
+
+</script>
+</html>

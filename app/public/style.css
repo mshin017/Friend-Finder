@@ -1,0 +1,25 @@
+container {
+    padding:10px;
+}
+form {
+    border-top: 1px solid;
+    padding: 10px;
+}
+#submit {
+    width: 90%;
+}
+#arm {
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid;
+    padding: 10px;
+    font-size: 13px;
+}
+#foot { 
+    font-size: 13px;
+    margin: auto;
+}
+
+#quest{
+    width: 20%;
+}
